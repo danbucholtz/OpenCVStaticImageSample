@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		375A7AF419BC19FC00373F8C /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 375A7AEE19BC19FC00373F8C /* 3.jpg */; };
+		375A7AF519BC19FC00373F8C /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 375A7AEF19BC19FC00373F8C /* 4.jpg */; };
+		375A7AF619BC19FC00373F8C /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 375A7AF019BC19FC00373F8C /* 1.jpg */; };
+		375A7AF719BC19FC00373F8C /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 375A7AF119BC19FC00373F8C /* 6.jpg */; };
+		375A7AF819BC19FC00373F8C /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 375A7AF219BC19FC00373F8C /* 5.jpg */; };
+		375A7AF919BC19FC00373F8C /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 375A7AF319BC19FC00373F8C /* 2.jpg */; };
 		37DE219C19B581B5005FEF2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DE219B19B581B5005FEF2D /* main.m */; };
 		37DE219F19B581B5005FEF2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DE219E19B581B5005FEF2D /* AppDelegate.m */; };
 		37DE21AA19B581B5005FEF2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37DE21A919B581B5005FEF2D /* Images.xcassets */; };
-		37DE21B619B581B5005FEF2D /* OpenCVStaticImageSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DE21B519B581B5005FEF2D /* OpenCVStaticImageSampleTests.m */; };
 		37DE21C219B58227005FEF2D /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 37DE21C019B58227005FEF2D /* ViewController.mm */; };
 		37DE21C319B58227005FEF2D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37DE21C119B58227005FEF2D /* ViewController.xib */; };
-		37DE21C519B58357005FEF2D /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37DE21C419B58357005FEF2D /* 1.jpg */; };
+		37DE21C519B58357005FEF2D /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37DE21C419B58357005FEF2D /* 7.jpg */; };
 		37DE21C719B587E5005FEF2D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DE21C619B587E5005FEF2D /* QuartzCore.framework */; };
 		37DE21D119B58852005FEF2D /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 37DE21D019B58852005FEF2D /* UIImage+OpenCV.mm */; };
 		37DE21D419B58993005FEF2D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DE21D319B58993005FEF2D /* MediaPlayer.framework */; };
@@ -27,30 +32,23 @@
 		E56ABD8B3E6E42CBB8982B8B /* libPods-OpenCVStaticImageSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E06F5F07A96A4E808600CA9B /* libPods-OpenCVStaticImageSample.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		37DE21B019B581B5005FEF2D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 37DE218E19B581B5005FEF2D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 37DE219519B581B5005FEF2D;
-			remoteInfo = OpenCVStaticImageSample;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		375A7AEE19BC19FC00373F8C /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		375A7AEF19BC19FC00373F8C /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		375A7AF019BC19FC00373F8C /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		375A7AF119BC19FC00373F8C /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		375A7AF219BC19FC00373F8C /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		375A7AF319BC19FC00373F8C /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		37DE219619B581B5005FEF2D /* OpenCVStaticImageSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCVStaticImageSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37DE219A19B581B5005FEF2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37DE219B19B581B5005FEF2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		37DE219D19B581B5005FEF2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37DE219E19B581B5005FEF2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		37DE21A919B581B5005FEF2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		37DE21AF19B581B5005FEF2D /* OpenCVStaticImageSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCVStaticImageSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		37DE21B419B581B5005FEF2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37DE21B519B581B5005FEF2D /* OpenCVStaticImageSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCVStaticImageSampleTests.m; sourceTree = "<group>"; };
 		37DE21BF19B58227005FEF2D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		37DE21C019B58227005FEF2D /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		37DE21C119B58227005FEF2D /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		37DE21C419B58357005FEF2D /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		37DE21C419B58357005FEF2D /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
 		37DE21C619B587E5005FEF2D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		37DE21C819B587F5005FEF2D /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		37DE21CA19B587FF005FEF2D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -86,13 +84,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37DE21AC19B581B5005FEF2D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -100,7 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				37DE219819B581B5005FEF2D /* OpenCVStaticImageSample */,
-				37DE21B219B581B5005FEF2D /* OpenCVStaticImageSampleTests */,
 				37DE219719B581B5005FEF2D /* Products */,
 				965ACA8F6FCC47D7805B58CB /* Pods-OpenCVStaticImageSample.xcconfig */,
 				FF23BFC73CA74732802D47B4 /* Frameworks */,
@@ -111,7 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				37DE219619B581B5005FEF2D /* OpenCVStaticImageSample.app */,
-				37DE21AF19B581B5005FEF2D /* OpenCVStaticImageSampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,8 +108,14 @@
 		37DE219819B581B5005FEF2D /* OpenCVStaticImageSample */ = {
 			isa = PBXGroup;
 			children = (
+				375A7AEE19BC19FC00373F8C /* 3.jpg */,
+				375A7AEF19BC19FC00373F8C /* 4.jpg */,
+				375A7AF019BC19FC00373F8C /* 1.jpg */,
+				375A7AF119BC19FC00373F8C /* 6.jpg */,
+				375A7AF219BC19FC00373F8C /* 5.jpg */,
+				375A7AF319BC19FC00373F8C /* 2.jpg */,
+				37DE21C419B58357005FEF2D /* 7.jpg */,
 				37DE21CE19B58840005FEF2D /* UIImage Additions */,
-				37DE21C419B58357005FEF2D /* 1.jpg */,
 				37DE21BF19B58227005FEF2D /* ViewController.h */,
 				37DE21C019B58227005FEF2D /* ViewController.mm */,
 				37DE21C119B58227005FEF2D /* ViewController.xib */,
@@ -138,23 +133,6 @@
 				37DE219A19B581B5005FEF2D /* Info.plist */,
 				37DE219B19B581B5005FEF2D /* main.m */,
 				37DE21D219B58951005FEF2D /* OpenCVStaticImageSample-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		37DE21B219B581B5005FEF2D /* OpenCVStaticImageSampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				37DE21B519B581B5005FEF2D /* OpenCVStaticImageSampleTests.m */,
-				37DE21B319B581B5005FEF2D /* Supporting Files */,
-			);
-			path = OpenCVStaticImageSampleTests;
-			sourceTree = "<group>";
-		};
-		37DE21B319B581B5005FEF2D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				37DE21B419B581B5005FEF2D /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -208,24 +186,6 @@
 			productReference = 37DE219619B581B5005FEF2D /* OpenCVStaticImageSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		37DE21AE19B581B5005FEF2D /* OpenCVStaticImageSampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 37DE21BC19B581B5005FEF2D /* Build configuration list for PBXNativeTarget "OpenCVStaticImageSampleTests" */;
-			buildPhases = (
-				37DE21AB19B581B5005FEF2D /* Sources */,
-				37DE21AC19B581B5005FEF2D /* Frameworks */,
-				37DE21AD19B581B5005FEF2D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				37DE21B119B581B5005FEF2D /* PBXTargetDependency */,
-			);
-			name = OpenCVStaticImageSampleTests;
-			productName = OpenCVStaticImageSampleTests;
-			productReference = 37DE21AF19B581B5005FEF2D /* OpenCVStaticImageSampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -237,10 +197,6 @@
 				TargetAttributes = {
 					37DE219519B581B5005FEF2D = {
 						CreatedOnToolsVersion = 6.0;
-					};
-					37DE21AE19B581B5005FEF2D = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = 37DE219519B581B5005FEF2D;
 					};
 				};
 			};
@@ -258,7 +214,6 @@
 			projectRoot = "";
 			targets = (
 				37DE219519B581B5005FEF2D /* OpenCVStaticImageSample */,
-				37DE21AE19B581B5005FEF2D /* OpenCVStaticImageSampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,16 +223,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37DE21C519B58357005FEF2D /* 1.jpg in Resources */,
+				375A7AF719BC19FC00373F8C /* 6.jpg in Resources */,
+				375A7AF819BC19FC00373F8C /* 5.jpg in Resources */,
+				37DE21C519B58357005FEF2D /* 7.jpg in Resources */,
+				375A7AF919BC19FC00373F8C /* 2.jpg in Resources */,
 				37DE21C319B58227005FEF2D /* ViewController.xib in Resources */,
 				37DE21AA19B581B5005FEF2D /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		37DE21AD19B581B5005FEF2D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				375A7AF619BC19FC00373F8C /* 1.jpg in Resources */,
+				375A7AF519BC19FC00373F8C /* 4.jpg in Resources */,
+				375A7AF419BC19FC00373F8C /* 3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,23 +282,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37DE21AB19B581B5005FEF2D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				37DE21B619B581B5005FEF2D /* OpenCVStaticImageSampleTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		37DE21B119B581B5005FEF2D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 37DE219519B581B5005FEF2D /* OpenCVStaticImageSample */;
-			targetProxy = 37DE21B019B581B5005FEF2D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		37DE21B719B581B5005FEF2D /* Debug */ = {
@@ -381,7 +319,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -416,7 +354,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -449,40 +387,6 @@
 			};
 			name = Release;
 		};
-		37DE21BD19B581B5005FEF2D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = OpenCVStaticImageSampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCVStaticImageSample.app/OpenCVStaticImageSample";
-			};
-			name = Debug;
-		};
-		37DE21BE19B581B5005FEF2D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = OpenCVStaticImageSampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCVStaticImageSample.app/OpenCVStaticImageSample";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -500,15 +404,6 @@
 			buildConfigurations = (
 				37DE21BA19B581B5005FEF2D /* Debug */,
 				37DE21BB19B581B5005FEF2D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		37DE21BC19B581B5005FEF2D /* Build configuration list for PBXNativeTarget "OpenCVStaticImageSampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				37DE21BD19B581B5005FEF2D /* Debug */,
-				37DE21BE19B581B5005FEF2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

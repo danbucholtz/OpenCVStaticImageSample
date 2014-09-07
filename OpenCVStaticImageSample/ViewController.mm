@@ -20,14 +20,14 @@
 
 - (void) viewDidLoad{
     [super viewDidLoad];
-    self.imageView.image = [UIImage imageNamed:@"1.jpg"];
+    self.imageView.image = [UIImage imageNamed:@"2.jpg"];
 }
 
 - (IBAction) toggleEdgeDetection{
     if ( edgeDetectionEnabled ){
         // restore the default image
         edgeDetectionEnabled = NO;
-        self.imageView.image = [UIImage imageNamed:@"1.jpg"];
+        self.imageView.image = [UIImage imageNamed:@"2.jpg"];
     }
     else{
         edgeDetectionEnabled = YES;
