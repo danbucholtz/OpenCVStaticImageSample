@@ -20,14 +20,14 @@
 
 - (void) viewDidLoad{
     [super viewDidLoad];
-    self.imageView.image = [UIImage imageNamed:@"2.jpg"];
+    self.imageView.image = [UIImage imageNamed:@"4.jpg"];
 }
 
 - (IBAction) toggleEdgeDetection{
     if ( edgeDetectionEnabled ){
         // restore the default image
         edgeDetectionEnabled = NO;
-        self.imageView.image = [UIImage imageNamed:@"2.jpg"];
+        self.imageView.image = [UIImage imageNamed:@"4.jpg"];
     }
     else{
         edgeDetectionEnabled = YES;
@@ -39,6 +39,9 @@
 - (UIImage * ) doEdgeDetection:(UIImage *)image{
     NSLog(@"Starting Edge Detection - This is a crude example so it will be slow");
     cv::Mat mat = [image CVMat];
+    
+    cv::resize(mat, mat, cv::Size(), 0.2f, 0.2f, CV_INTER_LINEAR);
+    
     cv::vector<cv::vector<cv::Point>>squares;
     cv::vector<cv::Point> largest_square;
     
